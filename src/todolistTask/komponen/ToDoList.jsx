@@ -6,6 +6,7 @@ const Wadah = styled.div
 `
 color: white;
 display: flex;
+height:500px;
 
 `
 

@@ -10,6 +10,7 @@ background-image: linear-gradient(120deg, #4360d5 0%, #2f5ae9 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
+  padding: 40px
 `
 const Judul = styled.h1
 `
@@ -25,8 +26,6 @@ function Todolilist() {
     <Wadah className="main"> 
     <header>
       <Judul>To Do List</Judul>
-      <p>maap yah kak yg ini chaos karena sebelumnya pake plaincss, dan klo saya implementasiin kesini yg lain jadi kena.</p>
-      <p>tapi yg penting tujuan tugas router ini tercapai :D</p>
     </header>
       <Form setInputText={setInputText} inputText={inputText} todos={todos} setTodos={setTodos}/>
       <ToDoList todos={todos} setTodos={setTodos}/>

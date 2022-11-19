@@ -19,37 +19,22 @@ export default class Portindex extends React.Component{
                 <div className="skills">
                     <ul>
                         <li>
+                            ReactJS & NodeJS
+                        </li>
+                        <li>
+                            JavaScript
+                        </li>
+                        <li>
+                            HTML
+                        </li>
+                        <li>
+                            CSS
+                        </li>
+                        <li>
                             CorelDraw
-                        </li>
-                        <li>
-                            Photoshop
-                        </li>
-                        <li>
-                            PremierePro
                         </li>
                     </ul>
                 </div>
-                <br/>
-                <h2> Old Close Friends</h2>
-                    <div>
-                    <table className="table">
-                        <tr>
-                            <td>No.</td>
-                            <td>Name</td>
-                            <td>Address</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Rifat	Hestu</td>
-                            <td>Tangerang</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Raja Walidain</td>
-                            <td>Tangerang</td>
-                        </tr>
-                    </table>
-                    </div>
                     <br/>
                     <form action=''>
                         <h2 id="contact">Contact Me!</h2>
